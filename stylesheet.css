@@ -3,6 +3,7 @@ General
 **********/
 
 body {
+	background-image:url(../img/texturegray.jpg);
 	font-family: 'Open Sans', sans-serif;
 	padding-left: 110px;
 	padding-right: 110px;
