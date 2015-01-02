@@ -6,10 +6,7 @@ body {
 	background-image:url(../img/texturegray.jpg);
 	opacity:30%}
 	{
-	font-family: 'Open Sans', sans-serif;
-	padding-left: 110px;
-	padding-right: 110px;
-	
+	font-family: 'Open Sans', sans-serif;	
 	}
 	
  
@@ -33,6 +30,7 @@ Heading
 	height: 2px;
 	color: #000;
 	background-color: #000;
+	
 }
 	
 /**********
@@ -40,16 +38,24 @@ Intro
 **********/
 .intro {
 	font-size:18px; 
+	margin: 0px 150px 0px 150px;
 	}
 /**********
 Body
 **********/
-
-
+hr {
+	margin: 0px 150px 10px 150px;
+	padding: 0px;
+}
+h3 {
+	margin: 0px 150px 0px 150px;
+	padding: 0px;
+}
 
 .value_offered h3 {
 	color: #3B91D4;
 	font-size:19px;
+	margin: 0px 150px 0px 150px;
 	
 	}
 .value_offered hr{
@@ -58,7 +64,9 @@ Body
 	background-color: #000;
 	}
 
-
+ul {
+	margin: 0px 150px 10px 150px;
+	}
 
 .professional h3 {
 	color: #3B91D4;
@@ -90,6 +98,10 @@ Body
 	color: #000;
 	background-color: #000;
 	}
+
+.margin {
+	margin: 0px 150px 10px 150px;
+}
 	
 	
 	
