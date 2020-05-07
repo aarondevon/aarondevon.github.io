@@ -6,7 +6,8 @@
 
     <style>
       /* GLOBAL STYLES */
-      html, body{
+      html,
+      body {
         margin: 0;
         padding: 0;
       }
@@ -17,7 +18,6 @@
       a {
         color: #f00;
       }
-      
 
       /* HERO STYLES */
       .full-hero {
@@ -29,6 +29,14 @@
       .social-link {
         background: rgba(150, 150, 150, 0.5);
         color: blue;
+      }
+      .social-list {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+      }
+      .social-list > li {
+        display: inline-block;
       }
 
       /* BIO STYLES */
@@ -61,7 +69,7 @@
   <body>
     <div class="full-hero hero-home">
       <h1>I'm an h1</h1>
-      <ul>
+      <ul class="social-list">
         <li>
           <a class="social-link" href="https://example.com/">Link</a>
         </li>
